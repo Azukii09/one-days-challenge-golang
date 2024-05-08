@@ -1,0 +1,11 @@
+Problem day 4 - 8 mei 2024
+
+In this Go challenge, you are going to be implementing a function that takes in two string values and checks to see if they are permutations of one another.
+
+Example
+If I have 2 strings, “abc” and “cba”, when I pass these strings into the function, it should return true as these two strings are permutations of each other.
+
+How can we optimize this function so that it is not performing unnecessary calculations?
+A. We can check the length of each string at the start of the function and return false if they differ
+B. We can use maps to efficiently lookup previously encountered characters
+C. All of the Above
