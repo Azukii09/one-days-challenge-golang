@@ -14,6 +14,8 @@ func TestSuccess(t *testing.T) {
 		Developer{Name: "Graham"},
 		Developer{Name: "Paul"},
 		Developer{Name: "Alan"},
+		Developer{Name: "Paul"},
+		Developer{Name: "Jennifer"},
 	}
 	outputTest := FilterUnique(input)
 	resultTest := []string{
