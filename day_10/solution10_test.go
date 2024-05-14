@@ -5,9 +5,7 @@ import (
 	"testing"
 )
 
-func ScrabbleScore(str string) int {
-	return len(str)
-}
 func TestSuccess(t *testing.T) {
 	assert.Equal(t, 14, ScrabbleScore("cabbage"))
+	assert.Equal(t, 10, ScrabbleScore("supper"))
 }
