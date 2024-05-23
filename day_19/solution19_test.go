@@ -5,9 +5,6 @@ import (
 	"testing"
 )
 
-func ISBN(str string) bool {
-	return false
-}
 func TestISBN(t *testing.T) {
 	assert.Equal(t, true, ISBN("3-598-21508-8"))
 	assert.Equal(t, false, ISBN("3-598-21508-9"))
